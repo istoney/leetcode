@@ -29,14 +29,13 @@ public:
         //pos to start search
         int start = 0;
         for(int i=0;i<s.size();i++){
-        	if(last[s[i]] >= start){
-        		res = max(res, i-start);
-        		//update search start pos 
-        		start = last[s[i]] + 1;
-        	}
-			
-			//update the new pos of a
-			last[s[i]] = i;
+            if(last[s[i]] >= start){
+                res = max(res, i-start);
+                //update search start pos 
+                start = last[s[i]] + 1;
+            }
+            //update the new pos of a
+            last[s[i]] = i;
         }
         
         //final search from start to N
@@ -45,7 +44,7 @@ public:
 };
 
 int main(){
-	Solution s;
-	cout<<s.lengthOfLongestSubstring("aaa");
-	return 0;
+    Solution s;
+    cout<<s.lengthOfLongestSubstring("aaa");
+    return 0;
 }
