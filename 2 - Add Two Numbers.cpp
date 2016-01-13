@@ -1,13 +1,13 @@
 /*
  =================================================================================== 
- *       File Name: 2 - Add Two Numbers.cpp
- *     Description: https://leetcode.com/problems/add-two-numbers/
- *          Author: Stoney
- * 
- *         Version: 1.0
- * Solution Method: add the digits one by one alone with the linked list.
- *     Submit Time: 2016/01/10
- *        Run Time: 36ms, beats 70.83%
+ *     File Name: 2 - Add Two Numbers.cpp
+ *   Description: https://leetcode.com/problems/add-two-numbers/
+ *        Author: Stoney
+ *       Version: 1.0
+ *   Submit Time: 2016/01/10
+ *      Run Time: 36ms, beats 70.83%
+ *     Solutions: add the digits one by one alone with the linked list.
+ *      Category: Á´±í 
  =================================================================================== 
  */
 

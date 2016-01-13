@@ -1,13 +1,13 @@
 /*
  =================================================================================== 
- *       File Name: 1 - Two Sum.cpp
- *     Description: https://leetcode.com/problems/two-sum/
- *          Author: Stoney
- * 
- *         Version: 1.0
- * Solution Method: sort the numbers, and binary search the vector for each number.
- *     Submit Time: 2016/01/10
- *        Run Time: 12ms, beats 85.88%
+ *     File Name: 1 - Two Sum.cpp
+ *   Description: https://leetcode.com/problems/two-sum/
+ *        Author: Stoney
+ *       Version: 1.0
+ *   Submit Time: 2016/01/10
+ *      Run Time: 12ms, beats 85.88%
+ *     Solutions: sort the numbers, and binary search the vector for each number.
+ *      Category: 两数求和 
  =================================================================================== 
  */
 #include<iostream>
