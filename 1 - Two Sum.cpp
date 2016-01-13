@@ -7,7 +7,7 @@
  *   Submit Time: 2016/01/10
  *      Run Time: 12ms, beats 85.88%
  *     Solutions: sort the numbers, and binary search the vector for each number.
- *      Category: 两数求和 
+ *      Category: 涓ゆ暟姹傚拰 
  =================================================================================== 
  */
 #include<iostream>

@@ -7,7 +7,7 @@
  *   Submit Time: 2016/01/10
  *      Run Time: 36ms, beats 70.83%
  *     Solutions: add the digits one by one alone with the linked list.
- *      Category: Á´±í 
+ *      Category: é“¾è¡¨ 
  =================================================================================== 
  */
 
