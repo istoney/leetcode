@@ -3,8 +3,8 @@
  *     File Name: 9 - Palindrome Number.cpp
  *   Description: https://leetcode.com/problems/palindrome-number/
  *        Author: Stoney
- *      Category: 字符串转换整形
- *          Note: 负数不是回文数
+ *      Category: 正则匹配
+ *          Note: 
  *
  *       Version: 1.0
  *   Submit Time: 2016/02/06
