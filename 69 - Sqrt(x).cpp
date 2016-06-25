@@ -1,10 +1,7 @@
 /*
  ===================================================================================
- *     File Name: 69 - Sqrt(x).cpp
  *   Description: https://leetcode.com/problems/sqrtx/
- *        Author: Stoney
  *      Category: 整数，开方
- *          Note:
  *
  *       Version: 1.0
  *   Submit Time: 2016/03/22

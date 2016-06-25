@@ -1,10 +1,7 @@
 /*
  ===================================================================================
- *     File Name: 67 - Add Binary.cpp
  *   Description: https://leetcode.com/problems/add-binary/
- *        Author: Stoney
  *      Category: 整数的变形表示与操作
- *          Note:
  *
  *       Version: 1.0
  *   Submit Time: 2016/02/10

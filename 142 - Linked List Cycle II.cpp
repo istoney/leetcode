@@ -19,6 +19,16 @@
  *                到cycle_begin需要k步；
  *                ②在cycle_begin相遇：若isMove=true，slow与fast同时前移，相遇，此时fast
  *                移动偶数次；若isMove=false,即为情况①的t=0;
+ *
+ *       Version: 2.0
+ *   Submit Time: 2016/04/18
+ *      Run Time: 12ms, beats 20.21%
+ *     Solutions: 1.指针fast,slow都指向head，fast每次移动两步，slow每次移动一步，fast每次
+ *                移动式需要判断下一节点是否为空，若为空结束，否则继续，直到fast=slow；
+ *                2.假设fast和slow相遇时共移动了t次，则fast移动了2t步，slow移动了t步，
+ *                即fast比slow多移动了t步，若此时将slow重新放回头节点，使fast和slow同时
+ *                每次只移动一步，则fast和slow仍将会在该节点相遇。
+ *                3.并且fast和slow第一次相遇的节点即为circle的开始节点。
  ===================================================================================
  */
 
@@ -58,5 +68,31 @@ public:
         }
 
         return begin;
+    }
+};
+
+//vserion 2
+class Solution {
+public:
+    ListNode *detectCycle(ListNode *head) {
+        if(NULL == head) return NULL;
+
+        ListNode *fast=head, *slow=head;
+        while(true){
+            if(fast->next==NULL || fast->next->next==NULL)
+                return NULL;
+
+            fast = fast->next->next;
+            slow = slow->next;
+            if(fast==slow) break;
+        }
+
+        slow = head;
+        while(slow!=fast){
+            fast = fast->next;
+            slow = slow->next;
+        }
+
+        return fast;
     }
 };

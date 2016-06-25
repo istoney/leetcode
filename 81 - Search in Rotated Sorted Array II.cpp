@@ -1,10 +1,7 @@
 /*
  ===================================================================================
- *     File Name: 81 - Search in Rotated Sorted Array II.cpp
  *   Description: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
- *        Author: Stoney
  *      Category: 数组，二分
- *          Note:
  *
  *       Version: 1.0
  *   Submit Time: 2016/02/21
