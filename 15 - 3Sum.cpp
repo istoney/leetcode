@@ -16,9 +16,10 @@
  *
  *       Version: 2.0
  *   Submit Time: 2016/02/04
- *      Run Time: 60ms, beats 40%
- *     Solutions: 排序后遍历数组，对每一个数字选取其作为第一个数字，对其后的范围进行
- *                twoSum计算
+ *      Run Time: 52ms, beats 83.38%
+ *     Solutions: 1.先对数组排序，遍历数组选取第一个数，然后在第一个后面的范围进行twoSum计算
+ *                选取后面两个数;
+ *                2.第一个数遍历时，条件为小于等于0，且遇到相同的数只计算一次；
  ===================================================================================
  */
 
@@ -97,7 +98,7 @@ public:
 //
 //         sort(nums.begin(), nums.end());
 //
-//         for(int i=0;i<nums.size()-2;++i){
+//         for(int i=0;i<nums.size()-2 && nums[i]<=0;++i){
 //             if(i>0 && nums[i-1]==nums[i]) continue;
 //
 //             int target = -nums[i];
@@ -121,13 +122,3 @@ public:
 //         return ans;
 //     }
 // };
-
-int main(){
-    Solution s;
-    vector<int> v;
-    v.push_back(-1);
-    v.push_back(-1);
-    v.push_back(2);
-    s.threeSum(v);
-    return 0;
-}
